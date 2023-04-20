@@ -1,3 +1,4 @@
+REM ----DUCKY SCRIPT----
 REM Opens Up Windows Run
 DELAY 100
 GUI r
